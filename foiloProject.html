@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./folioProject.css">
+    
+    <title>Document</title>
+</head>
+<body>
+    <nav id="nav-bar">
+        <h1 class="name">Vamsi</h1>
+        <div class="breif">
+          <a href="#home">Home</a>
+          <a href="#about">About</a>
+          <a href="#projects">Projects</a>
+          <a href="#contact">Contact</a>
+        </div>
+        <button class="cv">
+          <a href="./resume.pdf" download="resume.pdf">Download CV</a>
+        </button> 
+      </nav>
+      <!-- Inside your <body> -->
+<h1 class="welcome-section">Welcome to Projects section</h1>
+<section id="project-section">
+  <div class="project">
+    <h2>Imaginative Story Telling using Deep Learning</h2>
+    <p>
+      Developed a deep learning model for generating creative and coherent story content using GPT-Neo and Stable Diffusion.
+      Integrated text generation with visual storytelling for enhanced narrative experiences.
+      Optimized model pipelines for consistency between language and imagery.
+    </p>
+    <a class="btn" href="#">Overview</a>
+  </div>
+
+  <div class="project">
+    <h2>Food cart</h2>
+    <p>
+      Built a dynamic food ordering web app using HTML, CSS, and JavaScript, replicating real-world UI interactions.
+      Implemented interactive menus, order management, and responsive design.
+      Enhanced user experience with smooth transitions and real-time updates.
+    </p>
+    <a class="btn" href="#">Overview</a>
+  </div>
+
+  <div class="project">
+    <h2>Static web page cloning - <span>NETFLIX</span></h2>
+    <p>
+      Built a static clone of the Netflix landing page using HTML, CSS, and JavaScript.
+      Implemented grid layouts, media queries, and styling similar to the original.
+    </p>
+    <a class="btn" href="#">Overview</a>
+  </div>
+</section>
+<footer>
+    <div class="top-footer">
+        <p>Gorthi Vamsi</p>
+    </div>
+    <div class="middle-footer">
+        <ul class="footer-menu">
+            <li class="footer_menu_list">
+                <a href="#home">Home</a>
+            </li>
+            <li class="footer_menu_list">
+                <a href="#about">About</a>
+            </li>
+            <li class="footer_menu_list">
+                <a href="#projects">Projects</a>
+            </li>
+            <li class="footer_menu_list">
+                <a href="#contact">Contact</a>
+            </li>
+        </ul>
+    </div>
+    <div class="footer-social-icons">
+        <div class="icon"><i class="uil uil-instagram"></i></div>
+        <div class="icon"><i class="uil uil-linkedin-alt"></i></div>
+        <div class="icon"><i class="uil uil-dribbble"></i></div>
+        <div class="icon"><i class="uil uil-github-alt"></i></div>
+    </div>
+    <div class="bottom-footer">
+        <p>Copyright &copy; <a href="#home" style="text-decoration: none;">Gorthi vamsi</a> - All rights reserved</p>
+    </div>
+</footer>
+<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+<script>
+    window.addEventListener("scroll", function () {
+        const nav = document.getElementById("nav-bar");
+        if (window.scrollY > 10) {
+          nav.classList.add("scrolled");
+        } else {
+          nav.classList.remove("scrolled");
+        }
+      });
+</script>
+</body>
+</html>
